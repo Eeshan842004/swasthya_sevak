@@ -461,4 +461,5 @@ Advanced features (wearables, blockchain)
 💼 Team
 Member	Role	Background
 Eeshan Gupta	Technical head	(Flutter, Backend Architecture)
+
 Harshita Kumar	(RnD Head)
