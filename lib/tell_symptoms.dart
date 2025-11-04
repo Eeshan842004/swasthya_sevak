@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'speak.dart';
-import 'diagnosis.dart'; // ✅ Import diagnosis screen
+import 'diagnosis.dart';
 
 class TellSymptomsScreen extends StatefulWidget {
   const TellSymptomsScreen({super.key});
@@ -180,6 +180,7 @@ class _TellSymptomsScreenState extends State<TellSymptomsScreen> {
           children: [
             _genderOption('Male'),
             _genderOption('Female'),
+            _genderOption('Others'),
           ],
         ),
       ),
@@ -206,6 +207,8 @@ class _TellSymptomsScreenState extends State<TellSymptomsScreen> {
               style: TextStyle(
                 color:
                     isSelected ? const Color(0xFF0C111C) : const Color(0xFF4C6B99),
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
               ),
             ),
           ),
@@ -366,7 +369,6 @@ class _TellSymptomsScreenState extends State<TellSymptomsScreen> {
       ),
       child: GestureDetector(
         onTap: () {
-          // ✅ Navigate to Diagnosis Screen
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => const DiagnosisScreen()),
