@@ -1,16 +1,23 @@
-# swasthya_sevak
+# Swasthya Sevak
 
-A new Flutter project.
+Swasthya Sevak is a Flutter-based healthcare application developed for a hackathon project.  
+It aims to simplify access to health services and improve communication between users and health workers.
 
-## Getting Started
+## 💡 Features
+- Easy and clean Flutter UI  
+- Integration-ready for APIs or databases  
+- Scalable structure for healthcare solutions  
 
-This project is a starting point for a Flutter application.
+## 🧠 Tech Stack
+- Flutter  
+- Dart  
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
+To run this project locally:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/Eeshan842004/swasthya_sevak.git
+cd swasthya_sevak
+flutter clean
+flutter pub get
+flutter run
